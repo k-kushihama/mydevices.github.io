@@ -54,20 +54,15 @@
 
 自宅サーバー（Proxmox VE）で稼働しているVMやコンテナです．
 
-> **ホストマシン スペック (Proxmox VE Host):**
-> * **CPU:** AMD Ryzen 7 5700X
-> * **RAM:** 128GB DDR4 ECC
-> * **OS:** Proxmox VE 8.1
-> * **Storage (PVE):** 1TB NVMe SSD (ZFS Mirror)
-> * **Storage (VMs):** 4TB SATA SSD (RAID 1)
+| カテゴリ | スペック | 備考 |
+| :--- | :--- | :--- |
+| **Model** | MacBook Pro 14インチ | M3 Max |
+| **OS** | macOS Sonoma | |
+| **CPU/GPU** | Apple M3 Max | 16コアCPU / 40コアGPU |
+| **RAM** | 64GB | ユニファイドメモリ |
+| **Storage** | 2TB SSD | |
 
-| VM/Container (ID) | サービス名 | OS / Base | CPU/RAM | IP (Internal) | 概要 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `VM 100` | **Gateway** | OPNsense | 2C / 4GB | `192.168.1.1` | ファイアウォール, VPN |
-| `VM 101` | **PBX-Server** | Debian 12 | 4C / 8GB | `192.168.1.10` | Asterisk (例: Clocall連携) |
-| `VM 102` | **Dev-Server** | Ubuntu 22.04 | 8C / 16GB | `192.168.1.15` | 開発用VM (Docker) |
-| `LXC 200` | **AdGuard** | Ubuntu 22.04 | 1C / 512MB | `192.168.1.5` | DNS広告ブロック |
-| `LXC 201` | **CI/CD** | Ubuntu 22.04 | 2C / 2GB | `192.168.1.20` | GitLab Runner |
+
 
 ### 🌐 Cloud (VPS)
 
