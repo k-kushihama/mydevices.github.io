@@ -77,12 +77,10 @@
 
 
 
-### 🌐 Cloud (VPS)
+### 🌐 Network
 
-外部公開用のVPS（Virtual Private Server）です．
+使用しているネットワークです．
 
-| プロバイダ | プラン | OS | 主な役割 |
+| プロバイダ | プラン | 使用ノード |
 | :--- | :--- | :--- | :--- |
-| **Contabo** | Cloud VPS M | Ubuntu 22.04 LTS | Webサーバー (Nginx), リバースプロキシ |
-| **AWS** | EC2 (t3.micro) | Amazon Linux 2 | S3バックアップ用踏み台 |
-| **Vultr** | High Frequency | Debian 12 | VPN (WireGuard) |
+| BIGLOBE | 10Gbps IPOE | Node1 |
