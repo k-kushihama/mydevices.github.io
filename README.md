@@ -83,4 +83,4 @@
 
 | プロバイダ | プラン | 使用ノード |
 
-| BIGLOBE | 10Gbps IPOE | Node1 |
+| BIGLOBE | 10Gbps IPoE | Node1 |
