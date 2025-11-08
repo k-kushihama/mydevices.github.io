@@ -24,7 +24,7 @@
 | カテゴリ | スペック | 備考 |
 | :--- | :--- | :--- |
 | **OS** | Windows 11 Pro | `23H2` |
-| **CPU** | Intel Core i9-14900K | 24コア / 32スレッド |
+| **CPU** | Intel Core i9-14900KS | 24コア / 32スレッド |
 | **GPU** | NVIDIA GeForce RTX 4090 | 24GB GDDR6X |
 | **RAM** | 64GB DDR5 (32GB x2) | CORSAIR VENGEANCE @ 5600MHz |
 | **Storage (OS)** | 2TB NVMe SSD | Predator SSD |
