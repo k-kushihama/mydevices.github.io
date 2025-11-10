@@ -66,7 +66,9 @@
 ### 🏠 Home Lab
 
 自宅及びデータセンターで稼働しているサーバースペックです．
-
+<p align="center">
+  <img src="./img/1.png" alt="">
+</p>
 | カテゴリ | スペック | 備考 | 
 | :--- | :--- | :--- |
 | **Model** | HP ProLiant DL360e Gen8 | | 
